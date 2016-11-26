@@ -9,10 +9,10 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.jimmytai.library.colorpicker_demo.MainActivity"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    tools:context="com.jimmytai.library.colorpicker_demo.MainActivity">
 
     <com.jimmytai.libary.jcolorpicker.JColorPicker
+        android:id="@+id/jColorPicker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 

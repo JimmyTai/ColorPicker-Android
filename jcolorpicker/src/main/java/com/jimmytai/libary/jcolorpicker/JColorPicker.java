@@ -575,7 +575,7 @@ public class JColorPicker extends View {
         float[] colors = new float[3];
         Color.colorToHSV(color, colors);
 
-        return (float) Math.toRadians(-colors[0]);
+        return (float) Math.toRadians(-colors[0] + 300);
     }
 
     @Override
